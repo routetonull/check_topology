@@ -1,0 +1,5 @@
+---
+10.255.255.1:
+  nornir_host: 10.255.255.1
+  groups:
+    - cisco_ios

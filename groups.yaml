@@ -1,0 +1,12 @@
+---
+defaults:
+  nornir_username: admin
+  nornir_password: sup3rs3cr3t
+  nornir_ssh_port: 22
+  excludeIface:
+    - mgmt0
+  excludeCapa:
+    - VMware
+    
+cisco_ios:
+  nornir_nos: cisco_ios
